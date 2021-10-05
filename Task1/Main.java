@@ -10,11 +10,11 @@ public class Main {
         car.setDriver(driver);
 
         //1.K
-        System.out.println(car.toString() + driver.toString());
+        System.out.println(car.toString() + car.getDriver().toString());
 
         //1.L
         Car car1 = new Car("Fiat", "500", 1957, "Convertible");
-        car.setDriver(driver);
+        car1.setDriver(driver);
 
         //1.M
         System.out.println(car1.toString());
