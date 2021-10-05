@@ -1,4 +1,3 @@
-package src;
 //1.C
 public class Car {
     private String make;

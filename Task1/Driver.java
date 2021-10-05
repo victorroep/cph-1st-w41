@@ -1,4 +1,3 @@
-package src;
 //1.A
 public class Driver {
     private String name;
