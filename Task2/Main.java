@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Main {
-    static ArrayList<Room> rooms;
+    static ArrayList<Room> rooms = new ArrayList<Room>();
     static int numberOfLamps;
     public static void main(String[] args) {
         //2.G
@@ -24,8 +24,8 @@ public class Main {
         System.out.println("total number of lamps "+numberOfLamps);
 
         //2.K
-        if(){
-            
+        if(building.getNumberOfFloors() > building.getRooms().size()){
+            System.out.println("This is an odd building");
         }
     }
 }
