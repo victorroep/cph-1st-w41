@@ -1,3 +1,4 @@
+package src;
 import java.util.ArrayList;
 
 public class Main {
@@ -9,6 +10,6 @@ public class Main {
 
         //2.H
         ArrayList<Room> rooms;
-        rooms.add(room);
+        //rooms.add(room);
     }
 }
